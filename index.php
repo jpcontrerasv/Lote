@@ -23,7 +23,7 @@
   <body>
       <header class="container no-column">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-column">
-            <h1>Hello, putos!</h1>
+            <img src="img/logo-head.png" alt="">
         </div>
       </header>
     
