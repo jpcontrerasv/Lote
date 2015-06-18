@@ -1,0 +1,90 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/*Reset JP*/
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+@mixin box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+p, a {
+	margin:0;
+	padding:0;
+}
+.text-center {
+  text-align:center;
+}
+.text-left {
+  text-align:left;
+}
+.text-right {
+  text-align:right;
+}
+a {
+	text-decoration:none;
+
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+.no-column {
+	padding-left:0;
+	padding-right:0;
+}
+
+$em-1: 1em;
+$em-2: 2em;
+$em-3: 3em;
+$em-4: 4em;
+p {
+	font-size: 14px; 
+}
+@mixin font-family { 
+	font-family:"proxima-nova-alt";
+    font-weight: 700;
+}
+@mixin transicion {
+	transition:All .5s ease;
+	-webkit-transition:All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+	font-family:"proxima-nova-alt";
+	margin:0;
+	padding:0;
+    
+}
+body {
+	@include font-family;
+	@include transicion;
+    font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+	text-rendering: optimizeLegibility !important;
+}
