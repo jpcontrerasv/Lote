@@ -56,6 +56,11 @@ h1, h2, h3, h4, h5, h6, p, button {
   margin: 0;
   padding: 0; }
 
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: "proxima-nova-alt";
   font-weight: 700;
@@ -67,3 +72,115 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility !important; }
+
+header {
+  position: relative;
+  height: 106px;
+  display: block;
+  padding-top: 29px;
+  margin-bottom: 66px; }
+  header .dropdown-menu {
+    left: -121px; }
+
+ul.filtro {
+  display: inline-block;
+  margin-bottom: 8px; }
+  ul.filtro li {
+    float: left;
+    padding: 0 10px;
+    color: #ff4355;
+    margin-bottom: 10px; }
+    ul.filtro li a {
+      color: #ff4355;
+      letter-spacing: 1px;
+      font-size: 14px; }
+      ul.filtro li a:hover {
+        text-decoration: none;
+        border-bottom: 3px solid #ff4355; }
+  ul.filtro li.active a {
+    border-bottom: 3px solid #ff4355; }
+
+#contenido .item {
+  height: 400px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* para browser */
+  /* para dispositivo */ }
+  #contenido .item .contenedora {
+    transition: All .5s ease;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding: 15px; }
+  #contenido .item .titulo {
+    position: absolute;
+    bottom: 30px;
+    display: block; }
+    #contenido .item .titulo h1 {
+      text-transform: uppercase;
+      color: #bbbdc0;
+      font-family: "nudista-web";
+      font-weight: 600;
+      display: inline;
+      background: #FFF;
+      padding: 0 !important;
+      margin: 0 !important;
+      line-height: 45px;
+      transition: All .5s ease;
+      -webkit-transition: All .5s ease;
+      -moz-transition: All .5s ease;
+      -o-transition: All .5s ease;
+      font-size: 30px; }
+    #contenido .item .titulo span.fecha, #contenido .item .titulo span.tags {
+      opacity: 0;
+      transition: All .5s ease;
+      -webkit-transition: All .5s ease;
+      -moz-transition: All .5s ease;
+      -o-transition: All .5s ease; }
+      #contenido .item .titulo span.fecha p, #contenido .item .titulo span.fecha a, #contenido .item .titulo span.tags p, #contenido .item .titulo span.tags a {
+        font-family: "ff-tisa-web-pro";
+        font-weight: 400;
+        display: inline;
+        color: #00a9e6;
+        background: #FFF;
+        padding: 0 2px;
+        font-size: 12px; }
+    #contenido .item .titulo span.fecha {
+      margin-bottom: 5px; }
+      #contenido .item .titulo span.fecha p {
+        text-transform: uppercase;
+        font-style: italic; }
+    #contenido .item .titulo span.tags {
+      margin-top: 5px; }
+    #contenido .item .titulo .div {
+      position: relative; }
+  #contenido .item:hover h1 {
+    transition: All .5s ease;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    color: #00a9e6; }
+  #contenido .item:hover span.fecha, #contenido .item:hover span.tags {
+    opacity: 1;
+    transition: All .5s ease;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease; }
+  #contenido .item:hover .contenedora {
+    transition: All .5s ease;
+    -webkit-transition: All .5s ease;
+    -moz-transition: All .5s ease;
+    -o-transition: All .5s ease;
+    background-color: rgba(255, 255, 255, 0.9); }
+  @media (max-width: 1200px) {
+    #contenido .item {
+      height: 323px !important; } }
+  @media only screen and (max-device-width: 1200px) {
+    #contenido .item {
+      height: 323px !important; } }

@@ -67,6 +67,12 @@ p {
 	font-family:"proxima-nova-alt";
     font-weight: 700;
 }
+@mixin font-nudista {
+    font-family: "nudista-web";
+}
+@mixin font-tisa {
+    font-family: "ff-tisa-web-pro";
+}
 @mixin transicion {
 	transition:All .5s ease;
 	-webkit-transition:All .5s ease;
@@ -80,6 +86,11 @@ h1, h2, h3, h4, h5, h6, p, button {
 	padding:0;
     
 }
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 body {
 	@include font-family;
 	@include transicion;
@@ -87,4 +98,139 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;	
 	text-rendering: optimizeLegibility !important;
+}
+@mixin cover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+//Paleta
+$rojo: #ff4355;
+$celeste: #00a9e6;
+$gris: #bbbdc0;
+
+//Body
+
+header {
+    position: relative;
+    height: 106px;
+    display: block;
+    
+    padding-top: 29px;
+    margin-bottom: 66px;
+    .dropdown-menu {
+        left: -121px;
+    } 
+}
+//header
+
+ul.filtro {
+    display: inline-block;
+    margin-bottom: 8px;
+    li {
+        float: left;
+        padding: 0 10px;
+        color: $rojo;
+        margin-bottom: 10px;
+        a {
+            color: $rojo;
+            letter-spacing: 1px;
+            font-size: 14px;
+            &:hover {
+                text-decoration: none;
+                border-bottom: 3px solid $rojo;
+            }
+        }
+    }
+    li.active {
+        a {
+            border-bottom: 3px solid $rojo;
+        }
+    }
+}
+#contenido {
+    .item {
+        height: 400px;
+        position: relative;
+        @include cover;
+        
+        
+        .contenedora {
+            @include transicion;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            padding: 15px;
+        }
+        .titulo {
+            position: absolute;
+            bottom: 30px;
+            display: block;
+            
+            h1 {
+                text-transform: uppercase;
+                color: $gris;
+                @include font-nudista;
+                font-weight: 600;
+                display: inline;
+                background: #FFF;
+                padding: 0!important;
+                margin: 0!important;
+                line-height: 45px;
+                @include transicion;
+                font-size: 30px;
+            }
+            span.fecha, span.tags {
+                opacity: 0;
+                @include transicion;
+                p, a {
+                    @include font-tisa;
+                    font-weight: 400;
+                    display: inline;
+                    color: $celeste;
+                    background: #FFF;
+                    padding: 0 2px;
+                    font-size: 12px;
+                }
+            }
+            span.fecha {
+                margin-bottom: 5px;
+                p {
+                    text-transform: uppercase;
+                    font-style: italic;       
+                }
+            }
+            span.tags {
+                margin-top: 5px;
+            }
+            .div {
+                position: relative;
+            }
+        }
+        &:hover {
+            h1 {
+                @include transicion;
+                color: $celeste;
+            }
+            span.fecha, span.tags {
+                opacity: 1;
+                @include transicion;
+            }
+            .contenedora {
+                @include transicion;
+                background-color: rgba(255,255,255,.9);
+            }
+        }
+        /* para browser */
+        @media (max-width: 1200px) {
+            height: 323px!important;
+        }
+        /* para dispositivo */
+        @media only screen and (max-device-width: 1200px) {
+            height: 323px!important;
+        }
+    }
+    //cierra item
 }
