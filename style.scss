@@ -233,4 +233,26 @@ ul.filtro {
         }
     }
     //cierra item
+    .vermas {
+        padding-top: 64px;
+        a{
+            color:$rojo;
+            font-weight: 700;
+            border-bottom: 3px solid $rojo;
+            display: inline-block;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+footer {
+    height: 102px;
+    margin-top: 250px;
+    p,a,span,i{
+        color: $rojo;
+    }
+    .creditos {
+    }
 }

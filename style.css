@@ -184,3 +184,19 @@ ul.filtro {
   @media only screen and (max-device-width: 1200px) {
     #contenido .item {
       height: 323px !important; } }
+#contenido .vermas {
+  padding-top: 64px; }
+  #contenido .vermas a {
+    color: #ff4355;
+    font-weight: 700;
+    border-bottom: 3px solid #ff4355;
+    display: inline-block;
+    text-decoration: none; }
+    #contenido .vermas a:hover {
+      text-decoration: none; }
+
+footer {
+  height: 102px;
+  margin-top: 250px; }
+  footer p, footer a, footer span, footer i {
+    color: #ff4355; }

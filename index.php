@@ -132,9 +132,21 @@
                     </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
+            <div class="vermas box fwidth fleft text-center">
+                <a href="#">ver más posts</a>
+            </div>
         </div>
     </section>
     <!--main container-->
+      <footer class="container">
+          <div class="creditos col-lg-7 col-md-7 col-sm-7 col-xs-7">
+              <p>Diseñado por <a href="#" target="_blank">CERRO</a></p>
+          </div>
+          <div class="mail-contacto col-lg-2 col-md-2 col-sm-2 col-xs-2">
+          </div>
+          
+      </footer>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
