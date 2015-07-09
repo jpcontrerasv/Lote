@@ -104,6 +104,18 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    background-position: center;
+}
+.table {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.table-cell {
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
 }
 
 //Paleta
@@ -121,8 +133,58 @@ header {
     padding-top: 29px;
     margin-bottom: 66px;
     .dropdown-menu {
-        left: -121px;
-    } 
+        left: -60px;
+    }
+    #menu-nav {
+        width: 40px;
+        height: 76px;
+        position: relative;
+        overflow: visible;
+        margin-right: -45px;
+            .btn-group.open .dropdown-toggle,.btn.active, .btn:active {
+            box-shadow: none;
+            }
+            .btn-group {
+                @include transicion;
+                button{
+                    color: $rojo;
+                    background: none;
+                    i {
+                        transform: scale(0.8);
+                    }
+                }
+            }
+            .dropdown-menu{
+                background-color: #FFFFFF;
+                border: none;
+                border-radius: 0px;
+                box-shadow: none!important;
+                float: right;
+                font-size: 14px;
+                letter-spacing: .5px;
+                margin: 2px 0 0;
+                min-width: 100px;
+                padding:5px;
+                text-align: right;
+                @include transicion;
+                li {
+                    a {
+                        padding: 0;
+                        color: $rojo;
+                        font-weight: 700;
+                        display: inline;
+                        &:hover {
+                            color: #FFF;
+                            background: $rojo;
+                        }
+                    }
+                }
+            }
+            @media (max-width: 793px) {
+                margin-right: 0px;
+            }
+        }
+    
 }
 //header
 
@@ -152,7 +214,7 @@ ul.filtro {
 }
 #contenido {
     .item {
-        height: 400px;
+        height: 350px;
         position: relative;
         @include cover;
         
@@ -204,6 +266,7 @@ ul.filtro {
             }
             span.tags {
                 margin-top: 5px;
+                font-style: italic;
             }
             .div {
                 position: relative;
@@ -241,6 +304,8 @@ ul.filtro {
             border-bottom: 3px solid $rojo;
             display: inline-block;
             text-decoration: none;
+            letter-spacing: 1px;
+            
             &:hover {
                 text-decoration: none;
             }
@@ -252,7 +317,94 @@ footer {
     margin-top: 250px;
     p,a,span,i{
         color: $rojo;
+        font-weight: 400;
+        font-size: 11px;
     }
     .creditos {
+        padding-top: 26px;
+        p {
+            font-weight: 600;
+            letter-spacing: 1px;
+            a{
+                font-style: italic;
+                text-transform: uppercase;
+                &:hover {
+                    color: $rojo;
+                }
+            }
+        }
+    }
+    .mail-contacto {
+        padding-top: 22px;
+        a{
+            font-weight: 600;
+            letter-spacing: 1px;
+            &:hover {
+                color: $rojo;
+            }
+        }
+    }
+    .mail-contactob {
+        padding-top: 5px;
+    }
+    .rs-info-lote {
+        .info-b {
+        }
+        .info-lote {
+            padding-top: 8px;
+            p{
+                letter-spacing: .5px;
+                span.italic{
+                    font-style: italic;
+                }
+                span.bold {
+                    font-weight: 700;
+                }
+                span.uppercase {
+                    text-transform: uppercase;
+                }
+                span.semibold {
+                    font-weight: 600!important;
+                }
+            }
+        }
+    }
+    
+    .rs {
+        
+        padding-bottom: 16px;
+        padding-top: 23px;
+        background-image: url(img/lin-bg-rs-footer.png), url(img/lin-bg-rs-footer.png);
+background-position: top left, top right;
+        background-repeat: no-repeat;
+        
+         /* 
+        @media (max-width: 768px) {
+            background: none;
+        }
+         para dispositivo
+        @media only screen and (max-device-width: 768px) {
+            background: none;
+        } */
+        
+        
+        ul {
+            display: block;
+            width: 100%;
+            text-align: center;
+            li {
+                padding: 0 6px;
+                display: inline;
+                i {
+                }
+            }
+        }
+    }
+    .rsb {
+        background: none!important;
+        .ulb{
+            float: left;
+            width: auto;
+        } 
     }
 }

@@ -3326,6 +3326,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/img-item-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13373,
+		"inputAbbreviatedPath": "\/img\/img-item-5.jpg",
+		"outputAbbreviatedPath": "\/img\/img-item-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-item-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36570,
+		"inputAbbreviatedPath": "\/img\/img-item-6.jpg",
+		"outputAbbreviatedPath": "\/img\/img-item-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-item-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63431,
+		"inputAbbreviatedPath": "\/img\/img-item-7.jpg",
+		"outputAbbreviatedPath": "\/img\/img-item-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-item-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30327,
+		"inputAbbreviatedPath": "\/img\/img-item-8.jpg",
+		"outputAbbreviatedPath": "\/img\/img-item-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-item-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52872,
+		"inputAbbreviatedPath": "\/img\/img-item-9.jpg",
+		"outputAbbreviatedPath": "\/img\/img-item-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/img-item.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3333,6 +3388,17 @@
 		"initialSize": 32258,
 		"inputAbbreviatedPath": "\/img\/img-item.jpg",
 		"outputAbbreviatedPath": "\/img\/img-item.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lin-bg-rs-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1098,
+		"inputAbbreviatedPath": "\/img\/lin-bg-rs-footer.png",
+		"outputAbbreviatedPath": "\/img\/lin-bg-rs-footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -73,6 +73,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility !important; }
 
+.table {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.table-cell {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle; }
+
 header {
   position: relative;
   height: 106px;
@@ -80,7 +91,52 @@ header {
   padding-top: 29px;
   margin-bottom: 66px; }
   header .dropdown-menu {
-    left: -121px; }
+    left: -60px; }
+  header #menu-nav {
+    width: 40px;
+    height: 76px;
+    position: relative;
+    overflow: visible;
+    margin-right: -45px; }
+    header #menu-nav .btn-group.open .dropdown-toggle, header #menu-nav .btn.active, header #menu-nav .btn:active {
+      box-shadow: none; }
+    header #menu-nav .btn-group {
+      transition: All .5s ease;
+      -webkit-transition: All .5s ease;
+      -moz-transition: All .5s ease;
+      -o-transition: All .5s ease; }
+      header #menu-nav .btn-group button {
+        color: #ff4355;
+        background: none; }
+        header #menu-nav .btn-group button i {
+          transform: scale(0.8); }
+    header #menu-nav .dropdown-menu {
+      background-color: #FFFFFF;
+      border: none;
+      border-radius: 0px;
+      box-shadow: none !important;
+      float: right;
+      font-size: 14px;
+      letter-spacing: .5px;
+      margin: 2px 0 0;
+      min-width: 100px;
+      padding: 5px;
+      text-align: right;
+      transition: All .5s ease;
+      -webkit-transition: All .5s ease;
+      -moz-transition: All .5s ease;
+      -o-transition: All .5s ease; }
+      header #menu-nav .dropdown-menu li a {
+        padding: 0;
+        color: #ff4355;
+        font-weight: 700;
+        display: inline; }
+        header #menu-nav .dropdown-menu li a:hover {
+          color: #FFF;
+          background: #ff4355; }
+    @media (max-width: 793px) {
+      header #menu-nav {
+        margin-right: 0px; } }
 
 ul.filtro {
   display: inline-block;
@@ -101,12 +157,13 @@ ul.filtro {
     border-bottom: 3px solid #ff4355; }
 
 #contenido .item {
-  height: 400px;
+  height: 350px;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   /* para browser */
   /* para dispositivo */ }
   #contenido .item .contenedora {
@@ -157,7 +214,8 @@ ul.filtro {
         text-transform: uppercase;
         font-style: italic; }
     #contenido .item .titulo span.tags {
-      margin-top: 5px; }
+      margin-top: 5px;
+      font-style: italic; }
     #contenido .item .titulo .div {
       position: relative; }
   #contenido .item:hover h1 {
@@ -191,7 +249,8 @@ ul.filtro {
     font-weight: 700;
     border-bottom: 3px solid #ff4355;
     display: inline-block;
-    text-decoration: none; }
+    text-decoration: none;
+    letter-spacing: 1px; }
     #contenido .vermas a:hover {
       text-decoration: none; }
 
@@ -199,4 +258,63 @@ footer {
   height: 102px;
   margin-top: 250px; }
   footer p, footer a, footer span, footer i {
-    color: #ff4355; }
+    color: #ff4355;
+    font-weight: 400;
+    font-size: 11px; }
+  footer .creditos {
+    padding-top: 26px; }
+    footer .creditos p {
+      font-weight: 600;
+      letter-spacing: 1px; }
+      footer .creditos p a {
+        font-style: italic;
+        text-transform: uppercase; }
+        footer .creditos p a:hover {
+          color: #ff4355; }
+  footer .mail-contacto {
+    padding-top: 22px; }
+    footer .mail-contacto a {
+      font-weight: 600;
+      letter-spacing: 1px; }
+      footer .mail-contacto a:hover {
+        color: #ff4355; }
+  footer .mail-contactob {
+    padding-top: 5px; }
+  footer .rs-info-lote .info-lote {
+    padding-top: 8px; }
+    footer .rs-info-lote .info-lote p {
+      letter-spacing: .5px; }
+      footer .rs-info-lote .info-lote p span.italic {
+        font-style: italic; }
+      footer .rs-info-lote .info-lote p span.bold {
+        font-weight: 700; }
+      footer .rs-info-lote .info-lote p span.uppercase {
+        text-transform: uppercase; }
+      footer .rs-info-lote .info-lote p span.semibold {
+        font-weight: 600 !important; }
+  footer .rs {
+    padding-bottom: 16px;
+    padding-top: 23px;
+    background-image: url(img/lin-bg-rs-footer.png), url(img/lin-bg-rs-footer.png);
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+   /* 
+  @media (max-width: 768px) {
+      background: none;
+  }
+   para dispositivo
+  @media only screen and (max-device-width: 768px) {
+      background: none;
+  } */ }
+    footer .rs ul {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      footer .rs ul li {
+        padding: 0 6px;
+        display: inline; }
+  footer .rsb {
+    background: none !important; }
+    footer .rsb .ulb {
+      float: left;
+      width: auto; }

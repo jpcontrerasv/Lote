@@ -26,30 +26,49 @@
   <body>
       <header class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div id="menu-nav" class="box fright ">
+            <div id="menu-nav" class="box fright animated fadeIn">
                 <div class="btn-group fright">
   <!--<button type="button" class="btn">Título del botón</button>-->
  
   <button type="button" class="btn dropdown-toggle"
           data-toggle="dropdown">
-    <span><i class="fa fa-bars"></i></span>
+    <span><i class="fa fa-bars fa-2x"></i></span>
     <span class="sr-only">Desplegar menú</span>
   </button>
  
   <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Acción #1</a></li>
-    <li><a href="#">Acción #2</a></li>
-    <li><a href="#">Acción #3</a></li>
+    <li><a href="#">home</a></li>
+    <li><a href="#">somos</a></li>
+    <li><a href="#">blog</a></li>
+    <li><a href="#">proyectos</a></li>
+    <li><a href="#">publicaciones</a></li>
+    <li><a href="#">contacto</a></li>  
   </ul>
 </div>
             </div>
             
-            <img src="img/logo-head.png" alt="">
+            <svg class="animated fadeIn" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="57.547px" height="72px" viewBox="0 0 57.547 72" enable-background="new 0 0 57.547 72" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#ff4355" d="M57.546,72H0V0.001h57.546V72z M3.786,68.215h49.973V3.788H3.786V68.215z"/>
+	</g>
+	<g>
+		<path fill="#ff4355" d="M7.311,37.76h19.582v4.623h-7.051v17.576H14.4V42.383H7.311V37.76z"/>
+		<path fill="#ff4355" d="M45.165,50.967h-9.908v4.367h12.455v4.625H29.815V37.76h17.896v4.623H35.257v4.367h9.908V50.967z"/>
+		<path fill="#ff4355" d="M8.215,34.729V12.528h5.443v17.575h11.44v4.625H8.215z"/>
+		<path fill="#ff4355" d="M26.148,23.625c0-6.363,4.54-11.579,12.005-11.579c7.543,0,12.082,5.216,12.082,11.579
+			c0,6.365-4.539,11.582-12.082,11.582C30.688,35.207,26.148,29.99,26.148,23.625z M44.606,23.625c0-3.845-2.811-6.4-6.453-6.4
+			c-3.562,0-6.377,2.555-6.377,6.4c0,3.849,2.814,6.404,6.377,6.404C41.796,30.029,44.606,27.474,44.606,23.625z"/>
+	</g>
+</g>
+</svg>
         </div>
       </header>
+      <!--rojo-->
     <section class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <ul class="filtro">
+            <ul class="filtro animated fadeIn">
                 <li>ver:</li>
                 <li class="active"><a href="#">todos</a></li>
                 <li><a href="#">visita de obra</a></li>
@@ -59,7 +78,7 @@
             </ul>
         </div>
         <div class="clearfix"></div>
-        <div id="contenido" class="container">
+        <div id="contenido" class="container animated fadeIn">
             <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item.jpg);">
                 <div class="contenedora box fwidth fleft">
                     <div class="titulo">
@@ -89,7 +108,7 @@
                     <div class="titulo">
                         <div class="box fwidth fleft">
                             <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
-                            <h1>Desplazamientos</h1>
+                            <h1>Reestructuración casa Javier Olguín</h1>
                             <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
                             <ul></ul>
                         </div>
@@ -108,24 +127,60 @@
                     </div>
                 </div>
             </div>
-            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item.jpg);">
+            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item-5.jpg);">
                 <div class="contenedora box fwidth fleft">
                     <div class="titulo">
                         <div class="box fwidth fleft">
                             <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
-                            <h1>&nbsp;#05 visita de obra&nbsp;<br>&nbsp;casa grupe díaz&nbsp;</h1>
+                            <h1>Cuadernillos Lote Invernaderos</h1>
                             <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
                             <ul></ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item.jpg);">
+            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item-6.jpg);">
                 <div class="contenedora box fwidth fleft">
                     <div class="titulo">
                         <div class="box fwidth fleft">
                             <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
-                            <h1>&nbsp;#05 visita de obra&nbsp;<br>&nbsp;casa grupe díaz&nbsp;</h1>
+                            <h1>&nbsp;#04 visita de obra&nbsp;<br>&nbsp;casa grupe díaz&nbsp;</h1>
+                            <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item-7.jpg);">
+                <div class="contenedora box fwidth fleft">
+                    <div class="titulo">
+                        <div class="box fwidth fleft">
+                            <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
+                            <h1>Madernas nativas en Puerto Natales</h1>
+                            <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item-8.jpg);">
+                <div class="contenedora box fwidth fleft">
+                    <div class="titulo">
+                        <div class="box fwidth fleft">
+                            <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
+                            <h1>Workshop universidad del pacífico</h1>
+                            <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12" style="background-image:url(img/img-item-9.jpg);">
+                <div class="contenedora box fwidth fleft">
+                    <div class="titulo">
+                        <div class="box fwidth fleft">
+                            <span class="fecha fwidth fleft box animated bounce"><p>Junio 12, 2015</p></span>
+                            <h1>Tenemos Instagram</h1>
                             <span class="tags fwidth fleft box"><a href="#">#visitadeobra</a>&nbsp;<a href="#">#arquitectura</a></span>
                             <ul></ul>
                         </div>
@@ -140,11 +195,56 @@
     </section>
     <!--main container-->
       <footer class="container">
-          <div class="creditos col-lg-7 col-md-7 col-sm-7 col-xs-7">
+          <div class="creditos col-lg-6 col-md-3 col-sm-2 col-xs-6 hidden-xs">
               <p>Diseñado por <a href="#" target="_blank">CERRO</a></p>
           </div>
-          <div class="mail-contacto col-lg-2 col-md-2 col-sm-2 col-xs-2">
+          <div class="mail-contacto col-lg-2 col-md-3 col-sm-3 col-xs-6 hidden-xs no-column">
+            <a href="mailto:contacto@lotearquitectos.cl">contacto@lotearquitectos.cl</a>
           </div>
+          <div class="rs-info-lote col-lg-4 col-md-6 col-sm-7 hidden-xs col-xs-12">
+              <div class="container-fluid no-column">
+                <div class="rs col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="info-lote col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                    <p><span class="uppercase bold">Lote</span> &copy;<span class="semibold">2015</span></p>
+                    <p><span class="semibold">Pasaje Livingstone 54</span></p>
+                    <p><span class="italic">Santiago de Chile</span></p>
+                </div>
+              </div>
+          </div>
+          
+          
+          
+          
+          <div class="mail-contacto mail-contactob col-lg-2 col-md-3 col-sm-3 col-xs-12 hidden-lg hidden-md hidden-sm text-left">
+            <a href="mailto:contacto@lotearquitectos.cl">contacto@lotearquitectos.cl</a>
+          </div>
+          <div class="rs-info-lote col-lg-4 col-md-6 col-sm-7 col-xs-12 hidden-lg hidden-md hidden-sm no-column text-left">
+              <div class="container-fluid no-column">
+                <div class="rs rsb col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <ul class="ulb">
+                        <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="info-lote info-b col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left">
+                    <p><span class="uppercase bold">Lote</span> &copy;<span class="semibold">2015</span></p>
+                    <p><span class="semibold">Pasaje Livingstone 54</span></p>
+                    <p><span class="italic">Santiago de Chile</span></p>
+                </div>
+              </div>
+          </div>
+          <div class="creditos col-lg-6 col-md-3 col-sm-2 col-xs-12 hidden-lg hidden-md hidden-sm text-left">
+              <p>Diseñado por <a href="#" target="_blank">CERRO</a><br><br></p>
+          </div>
+          
+          
           
       </footer>
     
